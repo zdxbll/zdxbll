@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-## About me
+# Welcome to Lijun Zhou's Homepage!
 
 I'm a third year PhD student from University of Washington Mechanical Engineering Department. I completed my Bachelor's degree of New Energy Science and Engineering in Xi’an Jiaotong University.  
 
