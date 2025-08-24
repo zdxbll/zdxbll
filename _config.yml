@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Homepage"
+title                    : "Lijun's Homepage"
 title_separator          : "-"
 name                     : &name "Lijun Zhou"
 description              : &description "PhD student at University of Washington"
@@ -40,7 +40,7 @@ author:
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Lijun-Zhou-14?ev=hdr_xprf"
   scopus           : # URL
 
   # Repositories and software development
