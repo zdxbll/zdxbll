@@ -1,13 +1,11 @@
 ---
 permalink: /
-#title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Lijun Zhou's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Welcome to Lijun Zhou's Homepage!
 
 I'm a third year PhD student from University of Washington Mechanical Engineering Department. I completed my Bachelor's degree of New Energy Science and Engineering in Xi’an Jiaotong University.  
 
