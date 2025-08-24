@@ -1,11 +1,11 @@
 ---
-title: "Paper Title Number 1"
+title: "Self-doped tungsten oxide films induced by in situ carbothermal reduction for high performance electrochromic devices"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+permalink: https://pubs.rsc.org/en/content/articlehtml/2020/tc/d0tc03103h
+excerpt: 'This paper is about the electrochromic device fabrication'
+date: 2020-08-13
+venue: 'Journal of Materials Chemistry C'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
