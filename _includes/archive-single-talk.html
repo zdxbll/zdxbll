@@ -22,7 +22,6 @@
       </div>
     {% endif %}
 
-    {# --- 标题：仅当提供 link 时才加外链；否则显示纯文字 --- #}
     <h2 class="archive__item-title" itemprop="headline">
       {% if post.link and post.nolink != true %}
         <a href="{{ post.link }}" target="_blank" rel="noopener noreferrer">{{ title }}</a>
@@ -49,7 +48,6 @@
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% endif %}
 
-    {# （可选）如果你想保留“More information here”按钮，可用这段： #}
     {%- if post.link and post.show_more != false -%}
       <p><a href="{{ post.link }}" target="_blank" rel="noopener">More information here</a></p>
     {%- endif -%}
