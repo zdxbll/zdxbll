@@ -25,7 +25,7 @@ author:
   avatar           : "Lijun_profile.png"
   name             : "Lijun Zhou"
   pronouns         : # example: "he/his"  
-  bio              : "PhD student at University of Washington, expert in continuum mechanics and machine learning"
+  bio              : "PhD student at University of Washington"
   location         : "Seattle, Washington"
   employer         : "University of Washington"
   uri              : # URL
@@ -40,7 +40,7 @@ author:
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : "https://www.researchgate.net/profile/Lijun-Zhou-14?ev=hdr_xprf"
+  researchgate     : # "https://www.researchgate.net/profile/Lijun-Zhou-14?ev=hdr_xprf"
   scopus           : # URL
 
   # Repositories and software development
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/lijun-zhou-04b829236/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
