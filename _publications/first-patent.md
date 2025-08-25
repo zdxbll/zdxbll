@@ -3,12 +3,12 @@ title: "A Preparation Method for Tungsten Oxide Electrochromic Film Suitable for
 collection: publications
 category: patents
 authors:
-  -Huajing Fang
-  -Lijun Zhou
-  -Peng Wei
-  -Wenting Wu
-  -Hong Wang
+  - Huajing Fang
+  - Lijun Zhou
+  - Peng Wei
+  - Wenting Wu
+  - Hong Wang
 permalink: /publication/first-patent
-date: 2019
+date: 2019-09-22
 venue: 'Chinese Patent'
 ---
