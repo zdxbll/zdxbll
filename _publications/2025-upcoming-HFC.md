@@ -1,12 +1,14 @@
 ---
-title: "Solution-Processable Elongated Liquid Metal Particles for Composites with Enhanced Thermal Management "
+title: "Inverse Design of Hybrid Filler Composites with Liquid Metal and Solid Inclusions via Machine Learning "
 collection: publications
 category: upcoming
 nolink: true       
 hide_meta: true 
 authors:
-  - Renmian Chin
   - Lijun Zhou
+  - Yunsik Ohm
+  - Renmian Chin
+  - Krithika Manohar
   - Mohammad H., Malakooti
 ---
-Target: ACS Applied Materials & Interfaces
+Target: Anvanced Functional Materials
