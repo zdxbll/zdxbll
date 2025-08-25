@@ -3,12 +3,12 @@ title: "A Flexible and Stretchable Multi-mode Ultraviolet Response Composite Mat
 collection: publications
 category: patents
 authors:
-  -Huajing Fang
-  -Kai Jing
-  -Zetian Zhao
-  -Peng Wei
-  -Lijun Zhou
+  - Huajing Fang
+  - Kai Jing
+  - Zetian Zhao
+  - Peng Wei
+  - Lijun Zhou
 permalink: /publication/second-patent
-date: 2020
+date: 2020-11-10
 venue: 'Chinese Patent'
 ---
