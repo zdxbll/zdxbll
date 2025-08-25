@@ -8,7 +8,7 @@ authors:
   - Lijun Zhou
   - Yunsik Ohm
   - Renmian Chin
-  - Krithika Manohar
-  - Mohammad H., Malakooti
+  - Krithika Manohar<sup>*</sup>
+  - Mohammad H., Malakooti<sup>*</sup>
 ---
 Target: Anvanced Functional Materials
