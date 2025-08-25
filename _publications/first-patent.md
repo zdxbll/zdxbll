@@ -9,6 +9,5 @@ authors:
   - Wenting Wu
   - Hong Wang
 permalink: /publication/first-patent
-date: 2019-09-22
 ---
-Chinese Patent
+Chinese Patent, 2019-09-22
