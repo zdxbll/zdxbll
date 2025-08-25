@@ -1,0 +1,12 @@
+---
+title: "Stiffness and Thermal Conductivity of Liquid Metal Elastomer Composites with Secondary Solid Particles—Modeling and Experiment"
+collection: talks
+type: "Conference Presentation"
+permalink: /talks/2025-MRS-MMT
+venue: "2025 MRS Spring Meeting & Exhibit"
+date: 2025-04-08
+location: "Seattle, WA, USA"
+---
+
+Soft multifunctional composites are progressing technologies such as flexible electronics and wearable devices by integrating high mechanical compliance with enabling thermal and electrical properties. Liquid metal (LM) has gained popularity due to its combination of liquid behavior and metallic properties, which have led to the incorporation of solid inclusions in elastomer matrix, prompting the development of novel soft hybrid composites with enhanced functionalities. Different methods, including numerical and analytical methods, have been employed to accelerate the design of these composites with tailored properties. Among these methods, the analytical micromechanics model stands out for their accuracy and efficiency. However, the main challenge in the micromechanics model for these composites lies in two areas: improving reliability at high LM fractions and addressing the existing research gap for LM composites with solid inclusions.
+In this presentation, we will showcase the development and capabilities of our differential double inclusion model, which provides accurate predictions for both the thermal conductivity and elastic modulus of LM-elastomer composites, as well as LM-ZnO-elastomer composites. We first address the challenge of predicting LMEC properties at high LM volume fractions and provide the first comprehensive predictions for the thermal and mechanical behavior of the composites with both liquid and solid fillers. We will then discuss how to utilize the proposed modeling framework to achieve better prediction performance. The modeling results are validated with experiments and finite element analysis. The results show great agreement for composites with high LM content (80% by volume) and LM-ZnO fillers. Next, we will demonstrate how the proposed models can be used to predict the overall elasticity and thermal conductivity of the composites based on the phase of the filler materials, the ratio between solid and liquid fillers, and the elastomer matrix. Lastly, we cover the limitations and cost benefits of using a widely available solid filler. This work demonstrates the capabilities of the model to provide insights into novel multifunctional composites design and discovery.
