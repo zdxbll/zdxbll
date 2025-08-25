@@ -82,12 +82,12 @@ author:
 publication_category:
   books:
     title: 'Books'
+  upcoming:
+    title: 'Upcoming'
   manuscripts:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
-  upcoming:
-    title: 'Upcoming'
   patents:
     title: 'Patents'
 
