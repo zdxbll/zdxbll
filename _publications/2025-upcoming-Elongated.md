@@ -5,9 +5,8 @@ category: upcoming
 nolink: true       
 hide_meta: true 
 authors:
-  - Lijun Zhou
   - Renmian Chin
-  - Mohammad H.
-  - Malakooti
+  - Lijun Zhou
+  - Mohammad H., Malakooti
 ---
 Target: ACS Applied Materials & Interfaces
