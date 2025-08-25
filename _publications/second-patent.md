@@ -11,4 +11,5 @@ authors:
 permalink: /publication/second-patent
 date: 2020-11-10
 venue: 'Chinese Patent'
+hide_meta: true
 ---
