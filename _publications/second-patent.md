@@ -9,7 +9,5 @@ authors:
   - Peng Wei
   - Lijun Zhou
 permalink: /publication/second-patent
-date: 2020-11-10
-venue: 'Chinese Patent'
-hide_meta: true
 ---
+Chinese Patent, 2020-11-10
