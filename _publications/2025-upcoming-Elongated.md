@@ -7,6 +7,6 @@ hide_meta: true
 authors:
   - Renmian Chin
   - Lijun Zhou
-  - Mohammad H., Malakooti
+  - Mohammad H., Malakooti<sup>*</sup>
 ---
 Target: ACS Applied Materials & Interfaces
