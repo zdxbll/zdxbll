@@ -3,6 +3,13 @@ title: "Green synthesis of iron-doped graphene quantum dots: an efficient nanozy
 collection: publications
 category: manuscripts
 permalink: /publication/2024-03-23-Nanoscale Horizons
+authors:
+  - Xinqi Li
+  - Guanyou Lin
+  - Lijun Zhou
+  - Octavia Prosser,
+  - Mohammad H., Malakooti<sup>*</sup>
+  - Miqin Zhang<sup>*</sup>
 excerpt: 'One-step synthesis of FeN-doped graphene quantum dot single-atom nanozymes with high catalytic activity for glucose biosensing.'
 date: 2024-03-24
 venue: 'Nanoscale Horizons'
