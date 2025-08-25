@@ -10,6 +10,5 @@ authors:
   - Hong Wang
 permalink: /publication/first-patent
 date: 2019-09-22
-venue: 'Chinese Patent'
-hide_meta: true
 ---
+Chinese Patent
