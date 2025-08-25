@@ -12,26 +12,41 @@ author_profile: true
 {% endif %}
 
 {%- comment -%}
-Split talks by date: future → Upcoming (ascending), past → Past (newest first)
+Split by date without where_exp (works on GitHub Pages/Jekyll 3.x)
+Future → Upcoming (ascending), Past → newest first
 {%- endcomment -%}
-{% assign now_ts = 'now' | date: '%s' %}
-{% assign upcoming = site.talks
-  | where_exp: 't', 't.date'
-  | where_exp: 't', '(t.date | date: "%s") > now_ts'
-  | sort: 'date' %}
-{% assign past = site.talks
-  | where_exp: 't', 't.date'
-  | where_exp: 't', '(t.date | date: "%s") <= now_ts'
-  | sort: 'date' | reverse %}
+{% assign today = 'now' | date: '%Y-%m-%d' %}
 
-{% if upcoming.size > 0 %}
+{% assign sorted = site.talks | sort: 'date' %}
+
+{% assign any_upcoming = false %}
+{% for post in sorted %}
+  {% if post.date %}
+    {% assign d = post.date | date: '%Y-%m-%d' %}
+    {% if d > today %}
+      {% assign any_upcoming = true %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if any_upcoming %}
   <h2>Upcoming</h2>
-  {% for post in upcoming %}
-    {% include archive-single-talk.html %}
+  {% for post in sorted %}
+    {% if post.date %}
+      {% assign d = post.date | date: '%Y-%m-%d' %}
+      {% if d > today %}
+        {% include archive-single-talk.html %}
+      {% endif %}
+    {% endif %}
   {% endfor %}
 {% endif %}
 
 <h2>Past</h2>
-{% for post in past %}
-  {% include archive-single-talk.html %}
+{% for post in sorted reversed %}
+  {% if post.date %}
+    {% assign d = post.date | date: '%Y-%m-%d' %}
+    {% if d <= today %}
+      {% include archive-single-talk.html %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
