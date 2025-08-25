@@ -61,8 +61,7 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% comment %}
-{% elsif post.collection == 'publications' and post.category != 'upcoming' and post.hide_meta != true %}
+        {% elsif post.collection == 'publications' and post.category != 'upcoming' and post.hide_meta != true %}
   {% assign has_venue = post.venue and post.venue != '' %}
   {% assign has_year  = post.date  and post.date  != '' %}
   {% if has_venue or has_year %}
@@ -71,7 +70,7 @@
       {% if has_year %}{% if has_venue %}, {% endif %}{{ post.date | date: "%Y" }}{% endif %}
     </p>
   {% endif %}
-{% endcomment %}
+
 
 
         {% elsif post.date %}
