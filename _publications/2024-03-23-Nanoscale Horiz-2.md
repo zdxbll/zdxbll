@@ -6,6 +6,7 @@ permalink: /publication/2024-03-23-Nanoscale Horizons
 excerpt: 'One-step synthesis of FeN-doped graphene quantum dot single-atom nanozymes with high catalytic activity for glucose biosensing.'
 date: 2024-03-24
 venue: 'Nanoscale Horizons'
+paperurl: "https://pubs.rsc.org/en/content/articlehtml/2024/nh/d4nh00024b"
 citation: 'Li, Xinqi, Guanyou Lin, Zhou, Lijun, Octavia Prosser, Mohammad H. Malakooti, and Miqin Zhang. "Green synthesis of iron-doped graphene quantum dots: an efficient nanozyme for glucose sensing." Nanoscale Horizons 9, no. 6 (2024): 976-989.'
 ---
 
