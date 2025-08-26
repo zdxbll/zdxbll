@@ -5,7 +5,7 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon -->
+<!-- favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -14,14 +14,39 @@
 <link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- FORCE left-image / right-text layout on publications list -->
 <style>
-  .page__content .archive__item{display:flex;gap:1rem;align-items:flex-start;}
-  .page__content .archive__item-teaser{flex:0 0 260px;margin:0;}
-  .page__content .archive__item-teaser img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
-  .page__content .archive__item-title{margin-top:0;}
-  @media (max-width:768px){
-    .page__content .archive__item{display:block;}
-    .page__content .archive__item-teaser{max-width:100%;margin-bottom:.5rem;}
+  .page__content .archive__item{
+    display:flex !important;
+    gap:1rem !important;
+    align-items:flex-start !important;
+    flex-wrap:nowrap !important;
+  }
+
+  .page__content .archive__item-teaser{
+    flex:0 0 260px !important;   
+    max-width:260px !important;
+    width:260px !important;
+    margin:0 !important;
+    float:none !important;
+    display:block !important;
+  }
+
+  .page__content .archive__item-teaser img{
+    display:block !important;
+    width:100% !important;
+    height:auto !important;
+    border-radius:8px !important;
+    box-shadow:0 2px 8px rgba(0,0,0,.06) !important;
+  }
+
+  .page__content .archive__item-title{ margin-top:0 !important; }
+
+  @media (max-width: 768px){
+    .page__content .archive__item{ display:block !important; }
+    .page__content .archive__item-teaser{
+      width:auto !important; max-width:100% !important; margin-bottom:.5rem !important;
+    }
   }
 </style>
 
