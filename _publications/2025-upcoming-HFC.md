@@ -11,4 +11,3 @@ authors:
   - Krithika Manohar<sup>*</sup>
   - Mohammad H., Malakooti<sup>*</sup>
 ---
-Target: Anvanced Functional Materials
