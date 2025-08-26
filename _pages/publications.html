@@ -5,6 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+.archive__item-teaser{
+  float:left; width:260px; margin:0 16px 8px 0;
+}
+.archive__item-title{ margin-top:0; }
+.archive__item::after{ content:""; display:block; clear:both; }
+@media (max-width:768px){
+  .archive__item-teaser{ float:none; width:auto; margin:0 0 .5rem 0; }
+}
+</style>
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
@@ -31,6 +42,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
