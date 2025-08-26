@@ -9,4 +9,3 @@ authors:
   - Lijun Zhou
   - Mohammad H., Malakooti<sup>*</sup>
 ---
-Submitted: ACS Applied Materials & Interfaces
