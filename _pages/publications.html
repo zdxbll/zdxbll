@@ -7,14 +7,15 @@ author_profile: true
 
 <style>
 .archive__item { display:flex; gap:1rem; align-items:flex-start; }
-.archive__item-teaser { flex:0 0 240px; margin:0; }
+.archive__item-teaser { flex:0 0 240px; margin:0; align-self:center; }
 .archive__item-body { flex:1 1 auto; min-width:0; }
 .archive__item-title { margin-top:0; }
 @media (max-width:768px){
   .archive__item { display:block; }
-  .archive__item-teaser { width:auto; margin-bottom:.5rem; }
+  .archive__item-teaser { width:auto; margin-bottom:.5rem; align-self:auto; }
 }
 </style>
+
 
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
