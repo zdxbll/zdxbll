@@ -5,13 +5,24 @@
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
+
+<style>
+  .page__content .archive__item{display:flex;gap:1rem;align-items:flex-start;}
+  .page__content .archive__item-teaser{flex:0 0 260px;margin:0;}
+  .page__content .archive__item-teaser img{display:block;width:100%;height:auto;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.06);}
+  .page__content .archive__item-title{margin-top:0;}
+  @media (max-width:768px){
+    .page__content .archive__item{display:block;}
+    .page__content .archive__item-teaser{max-width:100%;margin-bottom:.5rem;}
+  }
+</style>
 
 <!-- end custom head snippets -->
