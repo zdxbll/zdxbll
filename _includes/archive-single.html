@@ -18,11 +18,12 @@
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
     {% if teaser %}
-  <div class="archive__item-teaser">
-    <img src={% if teaser contains "://" %}"{{ teaser }}"{% else %}"{{ teaser | absolute_url }}"{% endif %} alt="">
-  </div>
-{% endif %}
+      <div class="archive__item-teaser">
+        <img src={% if teaser contains "://" %}"{{ teaser }}"{% else %}"{{ teaser | absolute_url }}"{% endif %} alt="">
+      </div>
+    {% endif %}
 
+    <div class="archive__item-body">
 
     <h2 class="archive__item-title" itemprop="headline">
   {% if post.nolink or post.category == 'upcoming' %}
@@ -108,6 +109,8 @@
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% endif %}
+
+    </div>
 
   </article>
 </div>
