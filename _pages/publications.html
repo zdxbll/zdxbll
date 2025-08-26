@@ -6,13 +6,13 @@ author_profile: true
 ---
 
 <style>
-.archive__item-teaser{
-  float:left; width:260px; margin:0 16px 8px 0;
-}
-.archive__item-title{ margin-top:0; }
-.archive__item::after{ content:""; display:block; clear:both; }
+.archive__item { display:flex; gap:1rem; align-items:flex-start; }
+.archive__item-teaser { flex:0 0 240px; margin:0; }
+.archive__item-body { flex:1 1 auto; min-width:0; }
+.archive__item-title { margin-top:0; }
 @media (max-width:768px){
-  .archive__item-teaser{ float:none; width:auto; margin:0 0 .5rem 0; }
+  .archive__item { display:block; }
+  .archive__item-teaser { width:auto; margin-bottom:.5rem; }
 }
 </style>
 
@@ -22,7 +22,6 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
