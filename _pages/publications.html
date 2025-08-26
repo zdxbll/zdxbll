@@ -11,9 +11,11 @@ author_profile: true
 .archive__item-body{flex:1 1 auto;min-width:0;}
 .archive__item-title{margin-top:0;}
 @media(max-width:768px){
-  .archive__item{display:flex;flex-direction:column;gap:.5rem;}
+  .archive__item{display:flex;flex-direction:column;gap:.75rem;}
   .archive__item-body{order:1;width:100%;}
-  .archive__item-teaser{order:2;width:auto;margin:0;align-self:center;}
+  .archive__item-teaser{order:2;width:100%;max-width:580px;margin:.25rem auto 1rem;align-self:center;}
+  .archive__item-teaser img{width:100%;height:auto;display:block;}
+  .list__item{margin-bottom:1.25rem;}
 }
 </style>
 
