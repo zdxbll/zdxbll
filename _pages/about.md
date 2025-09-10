@@ -11,4 +11,4 @@ I am a third-year PhD student in the Department of Mechanical Engineering at the
 
 My research focuses on continuum mechanics and physics-informed machine learning, with an emphasis on multifunctional composite materials for wearable electronics and soft robotics. I integrate micromechanics modeling with data-driven approaches to enable soft materials discovery and inverse design. 
 
-Prior to my Ph.D., I earned a Bachelor’s degree in New Energy Science and Engineering with a minor in Business Administration from Xi’an Jiaotong University in 2022. 
+Prior to my Ph.D., I earned a Bachelor’s degree in New Energy Science and Engineering with a minor in Business Administration from Xi’an Jiaotong University in 2022.
